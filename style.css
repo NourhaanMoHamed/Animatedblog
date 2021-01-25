@@ -1,0 +1,533 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+    }
+@media only screen and (max-width: 700px)  /*mobile*/
+{
+    /******Header Start******/
+
+    .trybtn{
+    margin-right: 2%;
+    width: 40%;    
+}
+header img{
+    width:30%;
+    height:3vh;
+}
+     /******Header End******/
+.introduction h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 28px;
+    font-weight: 850;
+    margin-top: 50%;
+    
+}
+.introduction{
+    margin-left: 2%;
+    margin-right: 2%;
+    width:90%;
+}
+.introduction p {
+    margin-top: 7%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+.coloredbtn{
+    width:70%;
+    height:7vh;
+    margin-top: 12%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px !important;
+    font-weight: 550;
+}
+.introduction img {
+    width:80%;
+    margin-top: 28%;
+}
+ /******************Features Start*******************/
+ .features{
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+    text-align: center;
+    margin-top: 5%;
+    z-index: -1;
+}
+
+.features h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 50px;
+}
+.features img{
+    width: 12%;
+    margin-right: 34%;
+}
+.features p{
+   font-family: 'open sans' sans-serif;
+   color:rgb(179, 178, 178);
+}
+/***************features end***********************/
+/****************Grow section start*****************/
+.growsection {
+    width:98%;
+    margin-left: 1%;
+  text-align: center; 
+}
+.div1{
+    background-color:hsl(207, 100%, 98%);
+    width: 100%;
+}
+.div2{
+    background-color:hsl(207, 100%, 98%);
+    width: 100%;
+}
+
+.changephoto{
+    content: url('images/bg-section-top-mobile-1.svg');
+    /* z-index:1; */
+    position: relative;
+    left:-3%;
+    width:106%;
+    
+}
+.growsection .growimage{
+    width:100%;
+margin-top: 2%;
+
+}
+.growsection h2 {
+    font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 850;
+        margin-top: 12%;
+        color:hsl(192, 100%, 9%);
+}
+.growsection p{
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;   
+}
+.changephotodown{
+    content: url('images/bg-section-bottom-mobile-1.svg');
+    position: relative;
+    left:-3%;
+    width:106%;
+}
+/*****************flow section***************************/
+.flowsection{
+    margin-top: 25%;
+    margin-bottom: 25%;
+}
+/********************your users start***********************/
+.youruserstop{
+    content: url('images/bg-section-top-mobile-2.svg');
+   
+    object-fit:contain;
+    position: relative;
+    left:-3%;
+    width:106%;
+}
+.yourusersdown{
+    content: url('images/bg-section-bottom-mobile-2.svg');
+   
+    position: relative;
+    left:-3%;
+    width:106%;
+    
+}
+.youruserimage{
+    width:70% !important;
+}
+/**********footer start***********/
+.footerimage{
+    content:url('images/bg-footer-top-mobile.svg') ;
+    width:100%;
+    /* position: relative;
+    left:-5%; */
+    
+  margin-top: 20%;  
+}
+footer{
+    width:100%;
+}
+footer input{
+    width:95% !important;
+    margin-left: 3%;
+    border-radius: 5px;
+    height: 5vh;
+}
+.subscribebtn{
+    width:34%;
+    height: 5vh;
+    margin-left: 35%;
+    margin-right: 2%;
+    margin-top: 4%;
+    
+}
+.footerlogo{
+    width:50%;
+    height:3vh;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    
+}
+.foot{
+    margin-left: 4%;
+}
+.icons{
+margin-top: 8%;
+margin-bottom: 3%;
+margin-left: 5%;
+
+}
+i{
+    margin-left: 2%;
+}
+
+.svgicons{
+ width:8%;
+ height:1.5vh;
+ margin-right: 2%;
+
+}
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-top: 8%;
+}
+.subscribebtn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+}
+
+}
+@media screen and (min-device-width:768px)/*Desktop*/
+{
+    .trybtn{
+        margin-right: 2%;
+        width: 10%;    
+    }
+    .introduction h2{
+        font-family: 'Poppins', sans-serif;
+        font-size: 40px;
+        font-weight: 850;
+        margin-top: 16%;
+        
+    }
+    
+    .introduction p {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    .coloredbtn{
+        width:18%;
+        display: block;
+        height:7vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 1%;
+        margin-bottom: 5%;
+        font-family: 'Poppins', sans-serif;
+        font-size: 13px !important;
+        font-weight: 550;
+    }
+    .introduction img {
+        width:60%;
+    
+    }
+    /***************Header End**********************/
+    /******************Features Start*******************/
+    .features{
+        margin-left: auto;
+        margin-right: auto;
+        width: 65%;
+        text-align: center;
+        margin-top: 5%;
+    }
+    .features div{
+        margin-right:10% ;
+    }
+    .features>div{
+        margin-left: 5%;
+    }
+    .features h1{
+        font-family: 'Poppins', sans-serif;
+        font-weight: 600;
+        font-size: 50px;
+    }
+    .features img{
+        width: 12%;
+        margin-right: 25%;
+    }
+    .features p{
+       font-family: 'open sans' sans-serif;
+       color:rgb(179, 178, 178);
+    }
+    /****************Grow section start*****************/
+.growsection {
+  margin-right: auto;
+  margin-left: auto;
+   width:100%;
+}
+.changephoto{
+    content: url('images/bg-section-top-desktop-1.svg');
+    z-index:1;
+    position: relative;
+    width: 100%;
+    
+}
+.div1{
+position: relative;
+left:20%;
+order:2;
+}
+.div2{
+order :1;
+position: relative;
+left: 10%;
+margin-top: 5%;
+}
+.growsection .growimage{
+    width:90%;
+margin-top: 2%;
+position: relative;
+
+}
+.growsection h2 {
+    font-family: 'Poppins', sans-serif;
+        font-size: 22px;
+        font-weight: 850;
+        margin-top: 12%;
+        color:hsl(192, 100%, 9%);
+        position: relative;
+        
+
+}
+.parent{
+    display: flex;
+}
+.growsection p{
+    margin-top: 3%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+       
+}
+.changephotodown{
+    content: url('images/bg-section-bottom-desktop-1.svg');
+    width:100%;
+    
+    
+}
+/*****************flow section***************************/
+.flowsection{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: auto;
+}
+.flowimage {
+    position: relative;
+     left:20%;
+}
+.para{
+    position: relative;
+    left:10%;
+}
+/********************your users start***********************/
+.youruserstop{
+    content: url('images/bg-section-top-desktop-2.svg');
+   
+    width:100%;
+    
+}
+.yourusersdown{
+    content: url('images/bg-section-bottom-desktop-2.svg');
+ width:100%; 
+}
+.youruserimage{
+    width:70% !important;
+}
+.usersdiv{
+margin-top: 1% !important;
+}
+.section2 h2{
+    margin-top: 1% !important;
+}
+/**********footer start***********/
+.footerimage{
+    content:url('images/bg-footer-top-desktop.svg') ;
+    width:100% !important;
+ 
+}
+footer{
+    width:100%;
+    z-index: -1;
+}
+footer input{
+    width:50% !important;
+    margin-left: 3%;
+    border-radius: 5px;
+    height: 5vh;
+}
+.subscribebtn{
+    width:25%;
+    height: 5vh;
+    margin-left: 3%;
+    
+}
+.footdiv1{
+    order:2;
+    margin-top: 2%;
+
+}
+.footdiv2{
+    position: relative;
+    left:-5%;
+    order:1;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+.footerlogo{
+    width:50%;
+    height:3vh;
+
+}
+.foot{
+
+}
+.icons{
+/* margin-top: 8%;
+margin-bottom: 3%;
+margin-left: 5%; */
+
+}
+i{
+    margin-left: 2%;
+}
+
+.svgicons{
+  
+ margin-right: 2%; 
+ float: left;
+
+}
+footer h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 30px;
+}
+footer p{
+    font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        margin-top: 5%;
+}
+.subscribebtn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 550;
+    font-size: 15px;
+}
+.footerlogo{
+    height: 4vh;
+    width: 20%;
+}
+}
+/******Header Start******/
+.trybtn{
+    float:right;
+    border-radius: 100px;
+    border: 2px solid hsl(322, 100%, 66%);
+    color:hsl(322, 100%, 66%);
+    
+    -moz-box-shadow:    inset 0 0 5px hsl(321, 100%, 78%);
+   -webkit-box-shadow: inset 0 0 5px hsl(321, 100%, 78%);
+   box-shadow:         inset 0 0 5px hsl(321, 100%, 78%);
+}
+
+header{
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+/***************Header End*****************/
+/***************Introduction Start*************/
+.introduction{ 
+    text-align: center;
+    margin-top: 10%;
+}
+.coloredbtn{
+    background-color: hsl(322, 100%, 66%);
+    color:#FFF;
+    border-radius:100px;
+    box-shadow: 2px 2px 2px 2px rgb(182, 180, 180);
+}
+.introduction h2{
+    color:hsl(192, 100%, 9%);
+}
+.introduction p {
+      color:hsl(192, 100%, 9%);
+}
+.features h1 {
+    color:hsl(192, 100%, 9%);
+}
+.growsection{
+    background-color: hsl(207, 100%, 98%);
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+    color:#FFF;
+    box-sizing: border-box;
+    
+}
+.subscribebtn{
+    background-color: hsl(322, 100%, 66%);
+    color:white;
+}
+i{
+    color:#FFF;
+    display: inline;
+    margin-right: 2%;
+    
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+ul{
+    list-style: none;
+}
+footer a{
+    color: #FFF !important;
+    text-decoration: none;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+footer{
+    background-color: hsl(192, 100%, 9%);
+}
+.footerimage{
+    background-color: #FFF;
+}
